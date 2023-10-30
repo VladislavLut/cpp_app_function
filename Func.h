@@ -3,6 +3,7 @@
 
 using namespace std;
 
-int factorial(int n);
+bool isPrime(int n);
+
 
 
