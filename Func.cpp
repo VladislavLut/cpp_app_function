@@ -1,4 +1,6 @@
 #include "Func.h"
 
 
-void printRactangle();
+int factorial() {
+
+}
