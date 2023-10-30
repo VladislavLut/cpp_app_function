@@ -1,26 +1,18 @@
 #include "Func.h"
 
-void printRectangle(int height, int width) {
-	for (int i = 0; i < height; i++) {
-		for (int j = 0; j < width; j++) {
-			cout << "* ";
-		}
+int factorial(int n){
 
-		cout << endl;
+	if (n == 0) {
+		return 1;
+	}
+	else {
+		return n * factorial(n - 1);
 	}
 }
 
 int main() {
-	system("chcp 1251");
-	system("cls");
-	int height, width;
-
-	cout << "¬вести висоту пр€мокутника: ";
-	cin >> height;
-	cout << "¬вести ширину пр€мокутника: ";
-	cin >> width;
-
-	printRectangle(height, width);
-
-	return 0;
+	int n;
+	cout << "¬вед≥ть число: ";
+	cin >> n;
+	cout << "‘актор≥ал" <<n<< "="
 }
