@@ -3,5 +3,6 @@
 
 using namespace std;
 
-int factorial();
+int factorial(int n);
+
 

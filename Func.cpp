@@ -1,6 +1,12 @@
 #include "Func.h"
 
+int factorial(int n) {
 
-int factorial() {
-
+	if (n == 0) {
+		return 1;
+	}
+	else {
+		return n * factorial(n - 1);
+	}
 }
+
